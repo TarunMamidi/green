@@ -1,0 +1,61 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+}
+
+.comments-section {
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-actions .approve {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.modal-actions .reject {
+  background-color: #f44336;
+  color: white;
+}
+
+.modal-actions .close {
+  background-color: #777;
+  color: white;
+}

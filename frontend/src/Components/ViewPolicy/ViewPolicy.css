@@ -1,0 +1,61 @@
+/* ViewPolicy.css */
+
+.view-policy {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  overflow: hidden; /* Ensure no scroll */
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.view-policy h2 {
+  text-align: center;
+  color: #333;
+}
+
+.policy-details {
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.policy-details p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.policy-details p strong {
+  color: #333;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button.reject {
+  background-color: #f44336;
+}
+
+.button.reject:hover {
+  background-color: #e53935;
+}

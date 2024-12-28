@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-logo {
+    color: white;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+.navbar-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 10px;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.logout img {
+    width: 35px;
+    height: 35px;
+    padding-left: 20px;
+}
+
+
